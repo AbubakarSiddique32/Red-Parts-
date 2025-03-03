@@ -1,0 +1,80 @@
+.lnb-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.lnb-item {
+  width: 30%;
+}
+
+.lnbi-image {
+  width: 100%;
+}
+
+.lnbi-image img {
+  width: 100%;
+}
+
+.lnb-data {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 0px 0px 5px 5px;
+  border-top: none;
+  padding: 1rem;
+}
+
+.lnb-data span {
+  color: #ff0000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.lnb-data h4 {
+  color: #212529;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 2rem 0 1rem;
+}
+
+.lnb-data p {
+  color: #212529;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0 0 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .lnb-body {
+    gap: 1rem;
+  }
+  .lnb-item {
+    width: 31%;
+  }
+  .lnb-data h4 {
+    color: #212529;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 1rem 0 0.5rem;
+  }
+  .lnb-data p {
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lnb-item {
+    width: 100%;
+  }
+}

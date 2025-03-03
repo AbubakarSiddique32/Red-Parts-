@@ -1,0 +1,97 @@
+.track-data {
+  width: 100%;
+  padding: 5rem 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.track-data-body {
+  width: 80%;
+  margin: auto;
+}
+
+.track-data-body h1 {
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  color: #212529;
+  line-height: 60px;
+}
+
+.track-data-body h3 {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212529;
+  margin: 1rem 0 0.5rem;
+}
+
+.track-data-body p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212529;
+  line-height: 30px;
+}
+
+.tdb-section1 {
+  margin-top: 3rem;
+}
+.tdb-section2 {
+  margin-top: 3rem;
+}
+.tdb-section2 ol {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.tdb-section2 ol li {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212529;
+}
+
+.tdb-section3 {
+  margin-top: 3rem;
+}
+.tdb-section3 ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.tdb-section3 ul li {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212529;
+}
+
+.tdb-section4 {
+  margin-top: 3rem;
+}
+
+.tdb-section4 h4 {
+  margin-top: 0.2rem;
+  font-size: 23px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212529;
+  line-height: 30px;
+}
+
+.tdb-section4 h2 {
+  margin-top: 2rem;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #212529;
+  line-height: 30px;
+}

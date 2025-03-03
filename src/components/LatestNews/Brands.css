@@ -1,0 +1,27 @@
+.brands {
+  width: 100%;
+  padding: 3rem 1rem;
+}
+
+.brands-body {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.brand-image {
+  width: 10%;
+}
+.brand-image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .brands-body {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .brand-image {
+    width: 15%;
+  }
+}

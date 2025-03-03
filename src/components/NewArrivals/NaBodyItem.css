@@ -1,0 +1,105 @@
+.nab {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+  gap: 1rem;
+  margin: auto;
+  padding: 2rem 0;
+}
+.nab-item {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #c4c4c4;
+  padding: 1rem;
+}
+
+.nabi-image {
+  width: 30%;
+}
+
+.nabi-image img {
+  width: 100%;
+}
+
+.nabi-data {
+  width: 70%;
+}
+.nabi-reviews {
+  display: flex;
+  align-items: center;
+  margin: 1.6rem 0;
+  gap: 1.5rem;
+}
+.reviews-icons {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.reviews-icons i {
+  color: #ffd333;
+  font-size: 1rem;
+}
+
+.nabi-price {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media screen and (max-width: 1100px) {
+  .nab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    gap: 1rem;
+    margin: auto;
+    padding: 2rem 0;
+  }
+  .nab-item {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #c4c4c4;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .nabi-image {
+    width: 90%;
+  }
+  .nabi-data {
+    width: 90%;
+  }
+  .nabi-data h4 {
+    text-align: center;
+  }
+  .nabi-reviews {
+    display: flex;
+    align-items: center;
+    margin: 1.6rem 0;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nab {
+    gap: 0.5rem;
+  }
+  .nab-item {
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nab-item {
+    width: 100%;
+    text-align: center;
+  }
+  .nabi-reviews {
+    flex-direction: column;
+  }
+}

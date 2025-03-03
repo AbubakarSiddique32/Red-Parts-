@@ -1,0 +1,13 @@
+.latestnews {
+  width: 80%;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .latestnews {
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0;
+  }
+}
